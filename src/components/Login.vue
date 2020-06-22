@@ -2,14 +2,14 @@
 <div>
   <form  v-if="!isLog">
     <div>用户名：</div>
-<!--    <el-menu-item class="">-->
-<!--      <el-input v-model="name" placeholder="请输入内容"></el-input>-->
-<!--    </el-menu-item>-->
-    <div class="line-margin-top">
     <el-form-item label="用户名">
       <el-input v-model="name" placeholder="请输入内容"></el-input>
     </el-form-item>
-    </div>
+<!--    <div class="line-margin-top">-->
+<!--    <el-form-item label="用户名">-->
+<!--      <el-input v-model="name" placeholder="请输入内容"></el-input>-->
+<!--    </el-form-item>-->
+<!--    </div>-->
     <div>密码：</div>
     <el-input show-password v-model="password" placeholder="请输入内容"></el-input>
     <div>
